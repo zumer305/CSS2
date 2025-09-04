@@ -1,0 +1,127 @@
+/* universal-selector css is (*) */
+*{
+    font-family: 'Courier New';
+}
+
+/* Elemet selector */
+h1,h3{
+    color:#b92b27;
+
+}
+
+/* ID selector  just 1*/
+#login{
+    background-color: white;
+}
+#signup{
+    color:white;
+    background-color: #b92b27;
+}
+
+/* class selector multiple select */
+.upvote{
+    background-color: green;
+    color: white;
+}
+
+/* practice .................ID*/
+#myid p{
+    color:green;
+}
+/*  OR
+
+div[id="myid"] p{
+     color:green;
+
+} */
+
+
+
+/* descendant selector parent>child.................class */
+/* 
+p a{
+    color:blueviolet;
+    background-color: yellow;;
+} */
+.post a{
+     color:blueviolet;
+    background-color: yellow;;
+}
+
+
+/* 4 Level work */
+nav ul li a {
+    color:palevioletred;
+}
+
+
+/* sibling p+h3 same level <p></p>...<h3></h3> */
+p+h3{
+    text-decoration: underline;
+}
+.upvote+button{
+    background-color: cornflowerblue;
+    color:black
+}
+
+
+
+
+
+/* child level xxxx not good because direct relation.........descandant good because nav,ul,li,a(nav a) */
+div>input{
+    background-color: rgb(179, 205, 119);
+   
+}
+
+
+
+/* change color on attributes type=text */
+input[type="text"]
+{
+    color:#b92b27;
+}
+input[type="password"]
+{
+    color:green;
+}
+input[type]{
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
