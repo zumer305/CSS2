@@ -89,6 +89,49 @@ input[type]{
     background-color: white;
 }
 
+/* {id>class>element }ki importance agar id,class,h1 sab kii css */
+
+/* 1- div p  0 0 2=2
+2- class  0 1 0=10.........
+3-element  0 0 1=1 */
+
+/* same ho to bad wala */
+
+
+/* pseudo class */
+/* Hover */
+button:hover{
+    background-color: black;
+    color:white;
+}
+h3:hover{
+    text-decoration: none;
+}
+   
+
+/* Active means click*/
+button:active{
+    background-color: pink;
+    color:black;
+}
+p:active{
+    font-weight: bold;
+    color: green;
+}
+
+
+/* checked (sibling ku ka label bad ma ata*/
+input[type="radio"]:checked+label{
+    color:red;
+    font-weight: bold;
+
+}
+
+/* nth of type */
+div:nth-of-type(2)
+{
+    background-color: antiquewhite;
+}
 
 
 
