@@ -133,6 +133,33 @@ div:nth-of-type(2)
     background-color: antiquewhite;
 }
 
+/* pseudo element */
+h1::first-letter{
+    color:black;
+}
+p::first-line{
+    color:red;
+}
+p::selection{
+    background-color: yellow;
+}
+
+
+/* new file css priority>or phir h3 - h3 neechy waly ki */
+h3{
+    background-color: yellow;
+}
+h3{
+    background-color: aquamarine;
+}
+
+
+/* inline.....id......class,attribute,pseudo code......element,pseuodo element */
+
+
+
+
+
 
 
 
