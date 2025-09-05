@@ -1,3 +1,10 @@
+/* important is just like constant cant change */
+h3{
+    background-color: antiquewhite !important;
+}
+
+
+
 /* universal-selector css is (*) */
 *{
     font-family: 'Courier New';

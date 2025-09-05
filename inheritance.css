@@ -1,0 +1,26 @@
+/* div{
+    background-color: aqua;
+}
+p{
+    background-color: yellow;
+} */
+
+
+
+/* hirarchy follow color */
+div{
+    background-color: yellow;
+}
+form{
+    /* input,button ni change hota by default */
+    background-color: pink;
+}
+input,button{
+    background-color: inherit;
+}
+button:hover{
+    background-color: red;
+}
+/* coclor paletes ma ..(cooler ma colors ka combination) OR (mycolor.space me type krky baki dakh skty) */
+/* width,height,border not inherit */
+
